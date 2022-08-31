@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# .ipynb_checkpoints
+data/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# データの保存のスナップショットが残るのは微妙なので削除
+data/
+
+# キャッシュファイルの削除
+__pycache__/
+util/__pycache__/
